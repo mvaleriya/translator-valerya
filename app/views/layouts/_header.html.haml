@@ -1,0 +1,17 @@
+!!!
+%html
+  %body
+    %header
+      %p{align: "center"}
+        %font{color: "black", size: "5", face: "serif"}
+          %a=link_to "На главную страницу", '/welcome/index/'
+          |
+          %a=link_to "Создать новую трансляцию", '/translations/new'
+          |
+          %a=link_to "Транслированные программы", '/translations'
+          |
+          %a=link_to "Помощь", welcome_help_path(1)
+          |
+          %a=link_to "Об авторе", welcome_about_path(1)
+
+	

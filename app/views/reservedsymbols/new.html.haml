@@ -1,0 +1,10 @@
+=render partial: "/layouts/header"
+.center
+	%h1 Создание зарезервированных символов
+	= simple_form_for Reservedsymbol.new do |f|
+		= f.text_area :symbols, size:'40x8'
+		%p
+		%p
+		<button type="submit" class="btn btn-info">Сохранить</button>
+		%h4= link_to "Назад", reservedsymbol_path(1)
+=render partial: "/layouts/footer" 

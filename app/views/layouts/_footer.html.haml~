@@ -1,0 +1,10 @@
+!!!
+%html
+  %body
+    %footer
+      %p{align: "left"}
+        %font{color: "navy", size: "3", face: "fantasy"}
+          Copyright Илья "Matt Eversmann" Вайнгольц
+      %p{align: "left"}
+        %font{color: "navy", size: "3", face: "fantasy"}
+          Волгоград 2013

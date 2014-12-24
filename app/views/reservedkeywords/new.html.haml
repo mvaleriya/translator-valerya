@@ -1,0 +1,10 @@
+=render partial: "/layouts/header"
+.center
+	%h1 Создание ключевых слов
+	= simple_form_for Reservedkeyword.new do |f|
+		= f.text_area :keywords, size:'40x8'
+		%p
+		%p
+		<button type="submit" class="btn btn-info">Сохранить</button>
+		%h4= link_to "Назад", reservedkeyword_path(1)
+=render partial: "/layouts/footer"

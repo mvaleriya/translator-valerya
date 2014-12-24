@@ -1,0 +1,9 @@
+=render partial: "/layouts/header"
+%h1 Здравствуй, дорогой друг!
+%p{align: "justify"}
+  %font{color: "black", size: "6", face: "monospace"}
+    Здесь ты можешь транслировать свою программу с языка Милан на язык Си, а также посмотреть примеры уже транслированных программ.
+    Надеюсь, ты не зря потеряешь время, посетив мой сервис.
+%p{align: "center"}
+  =image_tag("welcome.png")
+=render partial: "/layouts/footer"
